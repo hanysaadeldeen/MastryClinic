@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Free Bookings",
+    "subtitle": "MASTERCLINICS",
+    "button": "Book Now"
+  },
+  "sidebar": {
+    "title": "Contents",
+    "items": [
+      "Why Us?",
+      "What Sets Us Apart?",
+      "Services We Offer",
+      "How to Book?",
+      "Customer Experience",
+      "Frequently Asked Questions",
+      "Contact Us"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Why Us?",
+      "content": "At Mastery Clinics, we are committed to providing the best medical services with high quality and exceptional attention to detail. Our team of experienced doctors and experts ensures a distinguished experience tailored to your health needs."
+    },
+    {
+      "title": "What Sets Us Apart?",
+      "content": "We offer free consultations with the best doctors across various specialties. We focus on providing a comfortable and safe environment for patients, emphasizing transparency and credibility in our services."
+    },
+    {
+      "title": "Services We Offer",
+      "content": "Our services include free medical consultations in fields such as dentistry, dermatology, nutrition, and more. We are here to support you on your journey to better health."
+    },
+    {
+      "title": "How to Book?",
+      "content": "You can easily book through our website or by contacting us via phone. Choose a suitable appointment time, and we’ll take care of the rest."
+    },
+    {
+      "title": "Customer Experience",
+      "content": "Many of our clients have shared their positive experiences with us, praising the exceptional service and personalized care they received."
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "content": "Is the consultation really free? Yes, the initial consultation is completely free. Can I choose my doctor? Absolutely, you can select the doctor that suits you."
+    },
+    {
+      "title": "Contact Us",
+      "content": "We are here to help! Reach out to us via phone or email for any inquiries."
+    }
+  ],
+  "footer": {
+    "scan": "Scan the code to book",
+    "links": ["Contact Us", "Frequently Asked Questions"],
+    "social": ["Facebook", "X"]
+  }
+}
