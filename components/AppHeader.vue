@@ -1,9 +1,11 @@
 <template>
   <header
-    class="relative bg-gradient-to-r from-primary via-secondary to-primary px-2 py-4 text-white max-sm:px-4"
+    class="relative bg-gradient-to-r from-primary via-secondary to-primary py-4 text-white"
     :class="[{ 'overflow-hidden': isSideBar }]"
   >
-    <div class="container relative mx-auto">
+    <div
+      class="container relative mx-auto text-white max-w-[1320px] px-11 sm:px-7"
+    >
       <div class="relative z-20">
         <div class="flex items-center justify-between">
           <nuxt-link :to="localePath('index')">
@@ -17,30 +19,31 @@
             />
           </nuxt-link>
           <nav class="hidden lg:block">
-            <ul class="flex gap-10">
-              <nuxt-link :to="localePath('index')">
+            <ul class="flex gap-8">
+              <!-- <nuxt-link :to="localePath('index')">
                 <li :class="adjustedPath === '/' ? 'active' : ''">
-                  {{ $t("Home") }}
+                  {{ $t("header.home") }}
+                </li>
+              </nuxt-link> -->
+              <nuxt-link :to="localePath('aboutUs')">
+                <li :class="adjustedPath === '/aboutUs' ? 'active' : ''">
+                  {{ $t("header.aboutUs") }}
                 </li>
               </nuxt-link>
-              <nuxt-link :to="localePath('aboutus')">
-                <li :class="adjustedPath === '/aboutus' ? 'active' : ''">
-                  {{ $t("AboutUs") }}
+              <nuxt-link :to="localePath('dental')">
+                <li :class="adjustedPath === '/dental' ? 'active' : ''">
+                  {{ $t("header.dental") }}
                 </li>
               </nuxt-link>
-              <nuxt-link :to="localePath('solutions')">
-                <li :class="adjustedPath === '/solutions' ? 'active' : ''">
-                  {{ $t("Solutions") }}
+              <nuxt-link :to="localePath('dermatology')">
+                <li :class="adjustedPath === '/dermatology' ? 'active' : ''">
+                  {{ $t("header.dermatology") }}
                 </li>
               </nuxt-link>
-              <nuxt-link :to="localePath('work')">
-                <li :class="adjustedPath === '/work' ? 'active' : ''">
-                  {{ $t("Work") }}
-                </li>
-              </nuxt-link>
-              <nuxt-link :to="localePath('blog')">
-                <li :class="adjustedPath === '/blog' ? 'active' : ''">
-                  {{ $t("Blog") }}
+
+              <nuxt-link :to="localePath('doctors')">
+                <li :class="adjustedPath === '/doctors' ? 'active' : ''">
+                  {{ $t("header.doctors") }}
                 </li>
               </nuxt-link>
             </ul>
@@ -83,7 +86,7 @@
                   class="w-full"
                 >
                   <li :class="[adjustedPath === '/' ? 'active' : '']">
-                    {{ $t("Home") }}
+                    {{ $t("header.home") }}
                   </li>
                 </nuxt-link>
                 <nuxt-link
@@ -92,34 +95,36 @@
                   class="w-full"
                 >
                   <li :class="[adjustedPath === '/aboutUs' ? 'active' : '']">
-                    {{ $t("AboutUs") }}
+                    {{ $t("header.aboutUs") }}
                   </li>
                 </nuxt-link>
                 <nuxt-link
-                  :to="localePath('solutions')"
+                  :to="localePath('dermatology')"
                   @click="isSideBar = !isSideBar"
                   class="w-full"
                 >
-                  <li :class="[adjustedPath === '/solutions' ? 'active' : '']">
-                    {{ $t("Solutions") }}
+                  <li
+                    :class="[adjustedPath === '/dermatology' ? 'active' : '']"
+                  >
+                    {{ $t("header.dermatology") }}
                   </li>
                 </nuxt-link>
                 <nuxt-link
-                  :to="localePath('work')"
+                  :to="localePath('dental')"
                   @click="isSideBar = !isSideBar"
                   class="w-full"
                 >
-                  <li :class="[adjustedPath === '/work' ? 'active' : '']">
-                    {{ $t("Work") }}
+                  <li :class="[adjustedPath === '/dental' ? 'active' : '']">
+                    {{ $t("header.dental") }}
                   </li>
                 </nuxt-link>
                 <nuxt-link
-                  :to="localePath('blog')"
+                  :to="localePath('doctors')"
                   @click="isSideBar = !isSideBar"
                   class="w-full"
                 >
-                  <li :class="[adjustedPath === '/blog' ? 'active' : '']">
-                    {{ $t("Blog") }}
+                  <li :class="[adjustedPath === '/doctors' ? 'active' : '']">
+                    {{ $t("header.doctors") }}
                   </li>
                 </nuxt-link>
               </ul>

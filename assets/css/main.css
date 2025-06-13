@@ -3,6 +3,45 @@
 @tailwind utilities;
 
 
+:root {
+    --primary: #19264F;
+    --secondary: #0B142F;
+    --tertiary: #52A5B0;
+    --paragraph: #E6E6E6;
+}
+
 body {
     font-family: "Alexandria", sans-serif;
+    background-color: var(--secondary);
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin-bottom: 100px;
+    }
+}
+
+
+.glass {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.08),
+            rgba(175, 153, 255, 0.08));
+    backdrop-filter: blur(10px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+    border-color: rgb(175 153 255 / 0.15);
+    ;
+}
+
+.glass:hover {
+    background: linear-gradient(360deg,
+            rgba(255, 255, 255, 0),
+            rgba(175, 153, 255, 0.4));
+    transform: translateY(-3px);
+
 }

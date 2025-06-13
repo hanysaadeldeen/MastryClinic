@@ -36,11 +36,12 @@ export default defineNuxtConfig({
           href: "/LogoTap.svg",
         },
       ],
-      title: "",
+      title: "Mastry Clinics",
       meta: [
         {
           name: "description",
-          content: "",
+          content:
+            "عيادة متكاملة بتقنيات حديثة وأطباء متخصصين لضمان راحتك وجمالك.",
         },
       ],
     },

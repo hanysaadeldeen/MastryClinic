@@ -1,8 +1,25 @@
 {
   "header": {
-    "title": "Free Bookings",
-    "subtitle": "MASTERCLINICS",
-    "button": "Book Now"
+    "home": "Home",
+    "aboutUs": "About Us",
+    "dermatology": "Dermatology Department",
+    "dental": "Dental Department",
+    "doctors": "Doctors"
+  },
+  "footer": {
+    "page": {
+      "aboutUs": "About Us",
+      "dental": "Dental Department",
+      "dermatology": "Dermatology Department",
+      "blog": "Blog"
+    },
+    "privacy": {
+      "privacy": "privacy"
+    },
+    "scan": "Scan the code to book",
+    "links": ["Contact Us", "Frequently Asked Questions"],
+    "social": ["Facebook", "X"],
+    "copyright": "Mastery Clinics. All rights reserved."
   },
   "sidebar": {
     "title": "Contents",
@@ -46,9 +63,100 @@
       "content": "We are here to help! Reach out to us via phone or email for any inquiries."
     }
   ],
-  "footer": {
-    "scan": "Scan the code to book",
-    "links": ["Contact Us", "Frequently Asked Questions"],
-    "social": ["Facebook", "X"]
+
+  "privacy": {
+    "startSection": {
+      "startSectionTitle": "Your Privacy Matters!",
+      "startSectionDescription": "We carefully protect your information and handle it with complete confidentiality to ensure your comfort and trust.",
+      "startSectionBtn": "Request a Consultation Now"
+    },
+    "content": {
+      "title": "Privacy Policy – Mastery Clinic",
+      "Description": "Welcome to Mastery Clinic! We place great importance on protecting your privacy. This policy explains how we collect and use your data when using our website ",
+      "firstSection": {
+        "firstSectionTitle": "1. Data We Collect",
+        "firstSectionDescription1": "When leaving a comment, we collect the data entered, the IP address, and browser information to help detect spam.",
+        "firstSectionDescription2": "Your email address may be sent to the Gravatar service for verification, and after your comment is approved, your profile picture becomes publicly visible.",
+        "firstSectionDescription3": "If you upload images to the site, it is recommended to remove location data (EXIF GPS), as visitors can extract this data from the images."
+      },
+      "secondtSection": {
+        "secondtSectionTitle": "2. Cookies",
+        "secondtSectionDescription1": "When leaving a comment, you can choose to save your data in cookies for one year to make future comments easier.",
+        "secondtSectionDescription2": "When you log in, cookies are stored to save your login information and display preferences.",
+        "secondtSectionDescription3": "When you edit or publish an article, a cookie indicating the edited article is saved and deleted after a day."
+      },
+      "thirdSection": {
+        "thirdSectionTitle": "3. Embedded Content from Other Sites",
+        "thirdSectionDescription1": "Articles on this site may include embedded content (like videos and images). This content behaves as if you visited the original site and may collect data about you or use third-party tracking tools."
+      },
+      "fourSection": {
+        "fourSectionTitle": "4. Sharing Your Data",
+        "fourSectionDescription1": "If you request a password reset, your IP address will be included in the email sent to you."
+      },
+      "fivedSection": {
+        "fivedSectionTitle": "5. Data Retention Duration",
+        "fivedSectionDescription1": "Comments and their associated data are retained indefinitely to facilitate the approval of future comments.",
+        "fivedSectionDescription2": "For registered users, their personal information is stored and can be edited or deleted, except for the username."
+      },
+      "sixSection": {
+        "sixSectionTitle": "6. Your Rights Over Your Data",
+        "sixSectionDescription1": "You can request a file containing all your personal data stored with us.",
+        "sixSectionDescription2": "You can request the deletion of your personal data, except for data we are required to keep for legal or administrative purposes."
+      },
+      "sevenSection": {
+        "sevenSectionTitle": "7. Where Your Data is Sent",
+        "sevenSectionDescription1": "Visitor comments may be checked through an automated spam detection service."
+      },
+      "eightSection": {
+        "eightSectionTitle": "8. How to Contact Us",
+        "eightSectionDescription1": "If you have any questions regarding this privacy policy, please contact us via the email address provided on our website."
+      }
+    }
+  },
+  "dermatology": {
+    "startSection": {
+      "startSectionTitle": "We take care of your beauty, because you deserve the best!",
+      "startSectionDescription": "We offer you the latest skin care and treatment technologies with expert hands and utmost care.",
+      "startSectionBtn": "Request a Consultation Now"
+    },
+      "doctors":{
+        "title": "Department doctors",
+        "description":"Experts in dental treatment and cosmetics to ensure a healthy smile",
+        "one":{
+          "name": "Dr. Asmaa Awadallah",
+          "speciality": "Deputy Director of Dermatology, Cosmetology, and Laser Master's Degree in Dermatology and Cosmetology Over 15 years of experience in cosmetic injections for treating skin and hair problems Member of the American Society of Laser and Cosmetology"
+        },
+        "two":{
+          "name": "Dr. Abeer Al-Asadi",
+          "speciality": "Bachelor of Oral and Dental Surgery, Master of Periodontal Surgery and Dental Implants, Damascus University, 11 years of experience in the field of specialization, holds training certificates in advanced surgical techniques from Germany, South Korea, and India. Member of the Women's International Implantology Network (WIN)."
+        }
+      } ,
+      "machine": {
+  "title": "Advanced Devices for Your Beauty and Health",
+  "description": "Our expertise is supported by cutting-edge technology that cares for every detail of your skin.",
+  "one": {
+    "name": "Hydra Beauty 2",
+    "description": {
+      "one": "A device that gently cleanses and exfoliates the skin to remove blackheads and dead skin cells.",
+      "two": "Hydrates the skin with rich serums for renewal and deep moisturization.",
+      "three": "Deeply cleanses pores, removing dirt, makeup residue, and dead skin from the surface.",
+      "four": "Moisturizes and treats skin dryness.",
+      "five": "Renews skin cells with active O2 oxygen therapy."
+    }
+  },
+  "two": {
+    "name": "INDIBA",
+    "description": {
+      "one": "An advanced technology for non-surgical body contouring.",
+      "two": "Firms the skin and treats sagging and subcutaneous fat.",
+      "three": "Safely reduces waist circumference and visceral fat.",
+      "four": "Effectively treats cellulite and stretch marks.",
+      "five": "Boosts the body's metabolic energy.",
+      "six": "An effective alternative to lymphatic drainage, even post-liposuction or surgical lifts.",
+      "seven": "Stimulates lymphatic glands to eliminate toxins and enhance collagen production."
+    }
+  }
+}
+  
   }
 }
