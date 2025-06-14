@@ -132,31 +132,96 @@
         }
       } ,
       "machine": {
-  "title": "Advanced Devices for Your Beauty and Health",
-  "description": "Our expertise is supported by cutting-edge technology that cares for every detail of your skin.",
-  "one": {
-    "name": "Hydra Beauty 2",
-    "description": {
-      "one": "A device that gently cleanses and exfoliates the skin to remove blackheads and dead skin cells.",
-      "two": "Hydrates the skin with rich serums for renewal and deep moisturization.",
-      "three": "Deeply cleanses pores, removing dirt, makeup residue, and dead skin from the surface.",
-      "four": "Moisturizes and treats skin dryness.",
-      "five": "Renews skin cells with active O2 oxygen therapy."
-    }
+          "title": "Advanced Devices for Your Beauty and Health",
+          "description": "Our expertise is supported by cutting-edge technology that cares for every detail of your skin.",
+          "one": {
+            "name": "Hydra Beauty 2",
+            "description": {
+              "one": "A device that gently cleanses and exfoliates the skin to remove blackheads and dead skin cells.",
+              "two": "Hydrates the skin with rich serums for renewal and deep moisturization.",
+              "three": "Deeply cleanses pores, removing dirt, makeup residue, and dead skin from the surface.",
+              "four": "Moisturizes and treats skin dryness.",
+              "five": "Renews skin cells with active O2 oxygen therapy."
+            }
+          },
+          "two": {
+            "name": "INDIBA",
+            "description": {
+              "one": "An advanced technology for non-surgical body contouring.",
+              "two": "Firms the skin and treats sagging and subcutaneous fat.",
+              "three": "Safely reduces waist circumference and visceral fat.",
+              "four": "Effectively treats cellulite and stretch marks.",
+              "five": "Boosts the body's metabolic energy.",
+              "six": "An effective alternative to lymphatic drainage, even post-liposuction or surgical lifts.",
+              "seven": "Stimulates lymphatic glands to eliminate toxins and enhance collagen production."
+            }
+          }
+        },
+          "FAQ":{
+            "title":"Frequently asked questions",
+            "one":{
+              "question":"What is the best way to whiten teeth?",
+              "answer": "The best method depends on your condition, but our clinic offers professional teeth whitening using laser or a dentist-supervised gel, which provides fast and safe results compared to home products."
+            },
+            "two":{
+              "question":"Is getting braces painful?",
+              "answer":  "You may feel some pressure or discomfort during the first few days after getting braces or after adjustments, but it is generally not very painful, and your mouth will adapt quickly."
+            },
+            "three":{
+              "question":"How often should I visit the dentist?",
+              "answer": "It is recommended to visit the dentist every 6 months for a check-up and cleaning, even if you don’t have any visible problems. This helps in prevention and early detection of any issues."
+            }
+          }
   },
-  "two": {
-    "name": "INDIBA",
-    "description": {
-      "one": "An advanced technology for non-surgical body contouring.",
-      "two": "Firms the skin and treats sagging and subcutaneous fat.",
-      "three": "Safely reduces waist circumference and visceral fat.",
-      "four": "Effectively treats cellulite and stretch marks.",
-      "five": "Boosts the body's metabolic energy.",
-      "six": "An effective alternative to lymphatic drainage, even post-liposuction or surgical lifts.",
-      "seven": "Stimulates lymphatic glands to eliminate toxins and enhance collagen production."
-    }
-  }
-}
-  
-  }
+  "doctors":{
+    "startSection": {
+      "startSectionTitle": "Meet our expert doctors",
+      "startSectionDescription": "A medical team with extensive experience in providing high-quality healthcare, ensuring your comfort and health.",
+      "startSectionBtn": "Request a Consultation Now"
+    },
+    "dentalDoctors":{
+      "title": "Dentists",
+      "description":"Experts in dental treatment and cosmetic dentistry to ensure a healthy smile.",
+      "doctorOne":{
+        "name": "Dr. Imad Al-Hazani",
+        "speciality": "(Saudi Dental Consultant) Consultant in Restorative and Cosmetic Dentistry Over 20 years of experience in cosmetic fillings, dental treatment, restoration, and cosmetic dentistry"
+      },
+      "doctorTwo":{
+        "name": "Dr. Abeer Al-Asadi",
+        "speciality": "Bachelor of Oral and Dental Surgery, Master of Periodontal Surgery and Dental Implants, Damascus University, 11 years of experience in the field of specialization, holds training certificates in advanced surgical techniques from Germany, South Korea, and India. Member of the Women's International Implantology Network (WIN)."
+      },
+      "doctorThree":{
+        "name": "Dr. Anas Al-Omari",
+        "speciality": "Master of Orthodontics and Maxillofacial Surgery - 2009. Over 15 years of experience in treating all orthodontic cases. Certified expert from Smartee (clear aligners)."
+      },
+      "doctorFour":{
+        "name": "Dr. Mai Al-Khayat",
+        "speciality": "Bachelor of Dental Medicine and Surgery, more than 20 years of experience in pediatric dentistry and conservative dentistry"
+      },
+      "doctorFive":{
+        "name": "Dr. Mu'ayyad Arnous",
+        "speciality": "- Bachelor's degree in Oral and Dental Medicine and Surgery - 2005 - European Fellowship and European Specialized Program in Cosmetic Dentistry (University of Genoa, Italy) - 2017"
+      },
+      "doctorSix":{
+        "name": "Dr. Roaa Masoud",
+        "speciality": "Dentist specializing in cosmetic dentistry and direct veneers. Member of the American Society of Cosmetic Dentistry."
+      },
+      "doctorSeven":{
+        "name": "Dr. Abdul Aziz Arnous",
+        "speciality": "Bachelor of Dental Medicine and Surgery, King Abdulaziz University Member of the Saudi Dental Society"
+      },
+      "doctorEight":{
+        "name": "Dr. Samahar Bahbari",
+        "speciality": "To educate about oral and dental hygiene, root canal cleaning, gum scaling, tooth polishing, preventive fillings for children and adults, and teeth whitening."
+      },
+      "doctorNine":{
+        "name": "Dr. Ayman Khalaf",
+        "speciality": "Bachelor of Dentistry - 2014. More than 10 years of experience. Holds accredited certificates and courses in cosmetic dentistry and smile design from the California Dental Association (USA) - 2016."
+      },
+      "doctorTen":{
+        "name": "Dr. Obaida Shannan",
+        "speciality": "- Bachelor of Dentistry - 2014 - Certified certificates and courses in cosmetic dentistry and smile design from the California Dental Association (America) 2016"
+      }
+} 
+  } 
 }

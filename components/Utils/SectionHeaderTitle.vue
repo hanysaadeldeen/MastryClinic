@@ -5,14 +5,14 @@
     >
       {{ $t(title) }}
     </h1>
-    <p class="text-center text-paragraph font-normal text-sm md:text-base">{{ $t(description) }}</p>
+    <p v-if="description" class="text-center text-paragraph font-normal text-sm md:text-base">{{ $t(description) }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 interface Props {
   title: string;
-  description: string;
+  description?: string;
 }
 defineProps<Props>();
 </script>
