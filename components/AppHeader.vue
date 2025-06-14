@@ -1,6 +1,6 @@
 <template>
   <header
-    class="relative bg-gradient-to-r from-primary via-secondary to-primary py-4 text-white"
+    class="relative bg-gradient-to-r from-primary via-secondary to-primary pt-10 text-white "
     :class="[{ 'overflow-hidden': isSideBar }]"
   >
     <div
@@ -197,7 +197,7 @@ a {
 
 ul li {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   display: inline-block;
   position: relative;

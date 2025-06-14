@@ -223,5 +223,35 @@
         "speciality": "- Bachelor of Dentistry - 2014 - Certified certificates and courses in cosmetic dentistry and smile design from the California Dental Association (America) 2016"
       }
 } 
-  } 
+  } ,
+  "dentalPage": {
+  "startSection": {
+    "startSectionTitle": "A Harmonious Smile Starts Here",
+    "startSectionDescription": "Enhance the appearance of your teeth and achieve a healthy jaw balance with the best dental services at Mastery Clinic.",
+    "startSectionBtn": "Book a Consultation Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Specialized services with the highest quality and professionalism",
+    "serviceOne": {
+      "title": "Digital Dental Implants"
+    },
+    "serviceTwo": {
+      "title": "Orthodontics and Jaw Alignment"
+    },
+    "serviceThree": {
+      "title": "Cosmetic and Dental Prosthetics"
+    },
+    "serviceFour": {
+      "title": "Gum Surgery and Aesthetics"
+    },
+    "serviceFive": {
+      "title": "Pediatric Dentistry"
+    },
+    "serviceSix": {
+      "title": "Preventive Dentistry"
+    }
+  }
+}
+
 }
