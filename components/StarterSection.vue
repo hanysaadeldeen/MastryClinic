@@ -15,7 +15,7 @@
       <div class="absolute  bottom-[5%] px-11 sm:px-7" :class="locale === 'en' ? 'left-0' : 'right-0'">
         <img src="~/assets/img/Vector.svg" alt="Vector" />
       </div>
-      <div class="absolute  hidden xl:block top-1/2  px-11 sm:px-7 -translate-y-1/2 "
+      <div v-if="path === '/dental'" class="absolute  hidden xl:block top-1/2  px-11 sm:px-7 -translate-y-1/2 "
         :class="locale === 'ar' ? 'left-0' : 'right-0'">
 
         <div class="relative w-[600px] h-[600px] bg-gradient-to-r z-10 from-primary to-primary/20 rounded-full ">
@@ -31,7 +31,8 @@
         </div>
 
       </div>
-      <div class="z-10 absolute hidden xl:block bottom-0 px-11 sm:px-7" :class="locale === 'ar' ? 'left-0' : 'right-0'">
+      <div v-if="path === '/dental'" class="z-10 absolute hidden xl:block bottom-0 px-11 sm:px-7"
+        :class="locale === 'ar' ? 'left-0' : 'right-0'">
         <img src="~/assets/img/dentalStarterSection.svg" alt="dentalStarterSection"
           class="relative z-10  object-contain" />
 
@@ -54,6 +55,10 @@
 </template>
 
 <script setup lang="ts">
+
+const { path } = useRoute()
+
+
 interface Props {
   title: string;
   paragraph: string;
