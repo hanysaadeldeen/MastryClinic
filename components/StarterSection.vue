@@ -15,41 +15,22 @@
       <div class="absolute  bottom-[5%] px-11 sm:px-7" :class="locale === 'en' ? 'left-0' : 'right-0'">
         <img src="~/assets/img/Vector.svg" alt="Vector" />
       </div>
-      <div v-if="path === '/dental'" class="absolute  hidden xl:block top-1/2  px-11 sm:px-7 -translate-y-1/2 "
+      <div class="absolute hidden xl:block top-1/2 px-11 sm:px-7 -translate-y-1/2 z-10"
         :class="locale === 'ar' ? 'left-0' : 'right-0'">
-
-        <div class="relative w-[600px] h-[600px] bg-gradient-to-r z-10 from-primary to-primary/20 rounded-full ">
-          <div class="absolute top-16 right-28 glassTwo py-5  px-8 rounded-xl z-40 ">
-            <p class="text-sm font-normal">توازن الفك</p>
-          </div>
-          <div class="absolute -right-5 bottom-[20%] glassTwo py-5  px-8 rounded-xl z-40 ">
-            <p class="text-sm font-normal">توازن الفك</p>
-          </div>
-          <div class="absolute top-1/2 -left-2 glassTwo py-5  px-8 rounded-xl z-40 ">
-            <p class="text-sm font-normal">توازن الفك</p>
-          </div>
-        </div>
-
+        <slot name="background" />
       </div>
-      <div v-if="path === '/dental'" class="z-10 absolute hidden xl:block bottom-0 px-11 sm:px-7"
+      <div class="absolute hidden xl:block top-1/2 px-11 sm:px-7 -translate-y-1/2 z-20"
         :class="locale === 'ar' ? 'left-0' : 'right-0'">
-        <img src="~/assets/img/dentalStarterSection.svg" alt="dentalStarterSection"
-          class="relative z-10  object-contain" />
-
+        <slot name="main" />
       </div>
-      <!-- <div class="absolute z-20 hidden xl:block top-1/2 px-11 sm:px-7 -translate-y-1/2"
-        :class="locale === 'ar' ? 'left-0' : 'right-0'">
-        <div class="relative w-[600px] h-[600px] bg-gradient-to-r from-primary to-primary/20 rounded-full">
-          <div class="absolute top-16 right-1/2 glassTwo py-5 px-8 rounded-xl z-50">
-            <p class="text-sm font-normal">توازن الفك</p>
-          </div>
-        </div>
-      </div>
-
       <div class="z-10 absolute hidden xl:block bottom-0 px-11 sm:px-7" :class="locale === 'ar' ? 'left-0' : 'right-0'">
-        <img src="~/assets/img/dentalStarterSection.svg" alt="dentalStarterSection"
-          class="relative z-10 object-contain" />
-      </div> -->
+        <slot name="doctor" />
+      </div>
+      <div class="absolute hidden xl:block top-1/2 px-11 sm:px-7 -translate-y-1/2 z-10"
+        :class="locale === 'ar' ? 'left-0' : 'right-0'">
+        <slot name="privacy" />
+      </div>
+
     </div>
   </section>
 </template>
@@ -69,12 +50,4 @@ defineProps<Props>();
 const { locale } = useI18n();
 </script>
 
-<style scoped>
-.glassTwo {
-  background-color: rgba(25, 38, 79, 0.3);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid;
-  border-color: rgb(175 153 255 / 0.15);
-}
-</style>
+<style scoped></style>

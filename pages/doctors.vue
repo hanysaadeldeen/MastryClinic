@@ -2,17 +2,31 @@
     <section class="dermatologyPage relative">
         <StarterSection :title="$t('doctors.startSection.startSectionTitle')"
             :paragraph="$t('doctors.startSection.startSectionDescription')"
-            :buttonTitle="$t('doctors.startSection.startSectionBtn')" />
+            :buttonTitle="$t('doctors.startSection.startSectionBtn')">
+
+            <template #background>
+                <div class="Starterbackground relative  w-[600px] h-[600px]">
+                </div>
+            </template>
+
+            <template #doctor>
+                <div class="doctor">
+                    <img src="~/assets/img/doctorsStarterSection.svg" alt="doctorsStarterSection"
+                        class="relative z-10  object-contain" />
+                </div>
+            </template>
+
+        </StarterSection>
         <div class="container relative mx-auto px-11 sm:px-7 text-white max-w-[1320px] mt-24">
             <section class="Dentealdoctors ">
 
-<SectionHeaderTitle description="doctors.dentalDoctors.description" title="doctors.dentalDoctors.title" />
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-  <DoctorCard  v-for="item in DentalDoctors" :title="item.name" :description="item.speciality"
-    :img="item.img" />
-  
-</div>
-</section>
+                <SectionHeaderTitle description="doctors.dentalDoctors.description"
+                    title="doctors.dentalDoctors.title" />
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <DoctorCard v-for="item in DentalDoctors" :title="item.name" :description="item.speciality"
+                        :img="item.img" />
+                </div>
+            </section>
         </div>
     </section>
 </template>
@@ -37,50 +51,56 @@ const DentalDoctors = [
     {
         name: "doctors.dentalDoctors.doctorTwo.name",
         speciality: "doctors.dentalDoctors.doctorTwo.speciality",
-        img:drAbeer
+        img: drAbeer
     },
     {
         name: "doctors.dentalDoctors.doctorThree.name",
         speciality: "doctors.dentalDoctors.doctorThree.speciality",
-        img:dranas
+        img: dranas
     },
     {
         name: "doctors.dentalDoctors.doctorFour.name",
         speciality: "doctors.dentalDoctors.doctorFour.speciality",
-        
+
     },
     {
         name: "doctors.dentalDoctors.doctorFive.name",
         speciality: "doctors.dentalDoctors.doctorFive.speciality",
-        img:drmoaaed
+        img: drmoaaed
     },
     {
         name: "doctors.dentalDoctors.doctorSix.name",
         speciality: "doctors.dentalDoctors.doctorSix.speciality",
-        img:drRaa
+        img: drRaa
     },
     {
         name: "doctors.dentalDoctors.doctorSeven.name",
         speciality: "doctors.dentalDoctors.doctorSeven.speciality",
-        img:drAbdo
+        img: drAbdo
     },
     {
         name: "doctors.dentalDoctors.doctorEight.name",
         speciality: "doctors.dentalDoctors.doctorEight.speciality",
-        img:drSamaher
+        img: drSamaher
     },
     {
         name: "doctors.dentalDoctors.doctorNine.name",
         speciality: "doctors.dentalDoctors.doctorNine.speciality",
-        img:DrAyman
+        img: DrAyman
     },
     {
         name: "doctors.dentalDoctors.doctorTen.name",
         speciality: "doctors.dentalDoctors.doctorTen.speciality",
-        img:drAbeda
+        img: drAbeda
     },
 ]
 
 </script>
 
-<style scoped></style>
+<style scoped>
+.Starterbackground {
+    background-image: url("../assets/img/StarterSectionPattern.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+</style>
