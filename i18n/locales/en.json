@@ -268,5 +268,17 @@
       "startSectionDescription": "Enhance the appearance of your teeth and achieve a healthy jaw balance with the best dental services at Mastery Clinic.",
       "startSectionBtn": "Book a Consultation Now"
     }
+  },
+  "contactPage": {
+    "startSection": {
+      "startSectionTitle": "Contact us easily, we are here to help you!",
+      "startSectionDescription": "Contact us via the form or directly through the available communication methods.",
+      "location": "Riyadh - King Salman District",
+      "button": "send"
+    },
+    "location": {
+      "title": "Our location on the map",
+      "description": "We are located in an easily accessible location to serve you better."
+    }
   }
 }

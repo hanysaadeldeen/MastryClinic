@@ -69,30 +69,20 @@
 const localePath = useLocalePath();
 const { locale } = useI18n();
 const SocialMedia = [
-  {
-    id: 3,
-    icon: '<i class="fa-brands fa-whatsapp"></i>',
-    socialName: "whatsapp",
-    link: "https://",
-  },
+
   {
     id: 1,
     icon: '<i class="fa-brands fa-instagram"></i>',
     socialName: "Instagram",
-    link: "https://",
+    link: "https://www.instagram.com/mastery_clinics/",
   },
   {
-    id: 4,
-    icon: '<i class="fa-brands fa-twitter"></i>',
-    socialName: "twitter",
+    id: 1,
+    icon: '<i class="fa-brands fa-tiktok"></i>',
+    socialName: "Tiktok",
     link: "https://",
   },
-  {
-    id: 2,
-    icon: '<i class="fa-brands fa-facebook"></i>',
-    socialName: "facebook",
-    link: "https://",
-  },
+
 ];
 </script>
 

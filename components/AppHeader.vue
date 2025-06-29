@@ -1,5 +1,5 @@
 <template>
-  <header class="relative bg-gradient-to-r from-primary via-secondary to-primary pt-10 text-white "
+  <header class="relative bg-gradient-to-r from-primary via-secondary to-primary pt-10 pb-4 text-white "
     :class="[{ 'overflow-hidden': isSideBar }]">
     <div class="container relative mx-auto text-white max-w-[1320px] px-11 sm:px-7">
       <div class="relative z-20">

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-gradient-to-r from-primary via-secondary to-primary pt-4 text-white h-[calc(100dvh-80px)] relative">
+    class="bg-gradient-to-r from-primary via-secondary to-primary pt-4 text-white h-[calc(100dvh-104px)] relative">
     <div class="container mx-auto px-11 sm:px-7 relative h-full max-w-[1320px]">
       <div class="w-full md:max-w-[608px] h-full flex flex-col justify-center">
         <h1 class="font-medium text-3xl md:text-[56px] mb-4"

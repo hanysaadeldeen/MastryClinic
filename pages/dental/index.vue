@@ -48,36 +48,37 @@
 
 import logo from "../assets/img/LogoTap.svg"
 const { locale } = useI18n();
+const localePath = useLocalePath()
 
 const Services = [
     {
         title: "dentalPage.services.serviceOne.title",
-        img: logo,
-        link: "/dental"
+        link: "digitaldentalimplants",
+        img: logo
     },
     {
         title: "dentalPage.services.serviceTwo.title",
-        link: "/dental",
+        link: "orthodonticsandjawalignment",
         img: logo
     },
     {
         title: "dentalPage.services.serviceThree.title",
-        link: "/dental",
+        link: "cosmeticanddentalprosthetics",
         img: logo
     },
     {
         title: "dentalPage.services.serviceFour.title",
-        link: "/dental",
+        link: "gumsurgeryandaesthetics",
         img: logo
     },
     {
         title: "dentalPage.services.serviceFive.title",
-        link: "/dental",
+        link: "pediatricdentistry",
         img: logo
     },
     {
         title: "dentalPage.services.serviceSix.title",
-        link: "/dental",
+        link: "preventivedentistry",
         img: logo
     }
 ]
