@@ -9,10 +9,11 @@
   },
   "footer": {
     "page": {
+      "home": "Home",
       "aboutUs": "About Us",
       "dental": "Dental Department",
       "dermatology": "Dermatology Department",
-      "blog": "Blog"
+      "doctors": "doctors"
     },
     "privacy": {
       "privacy": "privacy"
@@ -280,5 +281,73 @@
       "title": "Our location on the map",
       "description": "We are located in an easily accessible location to serve you better."
     }
+  },
+  "contact": {
+    "CTA": {
+      "title": "Get in Touch with the Mastery Clinics Team",
+      "description": "Have a question, inquiry, or want to book an appointment? We’re here to help! Just fill out the form below, and our dedicated team will contact you as soon as possible to provide support and answer all your questions.",
+      "buttonOne": "Contact Us"
+    }
+  },
+  "orthodonticsandjawalignment": {
+    "doctorsSection": {
+      "title": "Department doctors",
+      "description": "Experts in dental treatment and cosmetics to ensure a healthy smile"
+    },
+    "howDentalHelpYour": {
+      "title": "How Can Orthodontics Help You?",
+      "description": "Achieve a well-aligned smile and proper jaw function with our orthodontic services.",
+      "one": "Correcting the appearance of teeth",
+      "two": "Enhancing jaw functionality",
+      "three": "Achieving natural oral balance"
+    },
+    "typeDental": {
+      "title": "Types of Orthodontics",
+      "description": "We offer a variety of orthodontic options to suit your unique needs.",
+      "oneTitle": "Traditional Metal Braces",
+      "oneDescription": "Relies on metal brackets and wires to effectively align teeth, but they are visibly noticeable.",
+      "TwoTitle": "Clear Aligners",
+      "TwoDescription": "Invisible and comfortable option, less likely to cause cavities or gum inflammation, and typically faster than traditional braces in most cases.",
+      "ThreeTitle": "Ceramic Braces",
+      "ThreeDescription": "Similar to metal braces but uses tooth-colored brackets for a more aesthetic look.",
+      "FourTitle": "Lingual Braces",
+      "FourDescription": "Placed on the inner side of the teeth to remain hidden, offering similar results to traditional braces but may require an adjustment period.",
+      "FiveTitle": "Surgical Orthodontics",
+      "FiveDescription": "A specialized solution for correcting major jawbone issues, such as protrusion or recession, supported by braces for optimal results.",
+      "SixTitle": "Preventive Orthodontics for Children",
+      "SixDescription": "Used to guide the growth of the jaw and baby teeth in children, aiming to prevent future alignment issues."
+    }
+  },
+  "Conditionsinstallingbraces": {
+    "title": "Conditions for Getting Braces",
+    "description": "Discover the necessary conditions for starting orthodontic treatment.",
+    "one": "Teeth and gums must be free of decay or infections to ensure successful treatment.",
+    "two": "There should be a misalignment issue such as crowding or gaps between teeth.",
+    "three": "Any health conditions affecting the mouth, such as diabetes or immune deficiency, must be addressed beforehand.",
+    "four": "The patient must be committed to attending appointments and strictly following instructions.",
+    "five": "The ideal age for braces varies by case, but treatment is suitable for both children and adults.",
+    "six": "Patient readiness to endure the treatment and maintain proper care of the braces is essential for success."
+  },
+  "bracesSteps": {
+    "title": "Steps of Getting Braces",
+    "description": "Discover the stages you'll go through on your orthodontic journey.",
+    "one": "Treatment planning",
+    "two": "Placement of brackets and wires",
+    "three": "Adjusting the braces over time",
+    "four": "Initial examination and consultation",
+    "five": "Teeth cleaning and preparation",
+    "six": "Daily care and guidance",
+    "seven": "Removing the braces and placing retainers"
+  },
+  "StepsClearBraces": {
+    "title": "Steps of Getting Clear Aligners",
+    "description": "Discover the stages you'll go through on your clear aligner journey.",
+    "one": "Initial examination and consultation",
+    "two": "3D scanning or impressions of the teeth",
+    "three": "Creating a treatment plan using AI technology",
+    "four": "Starting to wear the aligner trays",
+    "five": "Daily care and guidance",
+    "six": "Regular follow-up visits at the clinic",
+    "seven": "Completing the treatment and placing a retainer"
   }
 }

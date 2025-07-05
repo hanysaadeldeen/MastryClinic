@@ -15,6 +15,8 @@ export default {
         secondary: "#0B142F",
         tertiary: "#52A5B0",
         paragraph: "#E6E6E6",
+        secondaryParagraph: "#B3B3B3",
+
       },
     },
   },

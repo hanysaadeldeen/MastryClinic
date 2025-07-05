@@ -5,9 +5,11 @@
       <div
         class="grid grid-cols-2 gap-16 border-b border-white/10 pb-6 md:grid-cols-3 md:gap-[72px] md:pb-12 lg:grid-cols-5">
         <div class="col-span-2">
-          <img src="~/assets/img/logo.svg"
-            class="mb-12 inline-block object-contain w-[200px] h-[50px] md:w-[235px] md:h-[63px]"
-            alt="Mastry Clinics logo" width="235px" height="63px" />
+          <nuxt-link :to="localePath('/')">
+            <img src="~/assets/img/logo.svg"
+              class="mb-12 inline-block object-contain w-[200px] h-[50px] md:w-[235px] md:h-[63px]"
+              alt="Mastry Clinics logo" width="235px" height="63px" />
+          </nuxt-link>
           <div class="content max-w-[288px]">
             <p class="text-base font-normal !text-white">
               ابقَ على تواصل معنا عبر منصات التواصل الاجتماعي!
@@ -27,21 +29,24 @@
             {{ locale === "ar" ? "الصفحات" : "Pages" }}
           </h2>
           <div class="flex flex-col gap-3">
-            <nuxt-link :to="localePath('aboutUs')">
-              <p>{{ $t("footer.page.aboutUs") }}</p>
+            <nuxt-link :to="localePath('/')">
+              <p>{{ $t("footer.page.home") }}</p>
             </nuxt-link>
+
             <nuxt-link :to="localePath('dental')">
               <p>{{ $t("footer.page.dental") }}</p>
             </nuxt-link>
             <nuxt-link :to="localePath('dermatology')">
               <p>{{ $t("footer.page.dermatology") }}</p>
             </nuxt-link>
-            <nuxt-link :to="localePath('blog')">
-              <p>{{ $t("footer.page.blog") }}</p>
+            <nuxt-link :to="localePath('doctors')">
+              <p> {{ $t("footer.page.doctors") }} </p>
+            </nuxt-link>
+            <nuxt-link :to="localePath('aboutUs')">
+              <p>{{ $t("footer.page.aboutUs") }}</p>
             </nuxt-link>
           </div>
         </div>
-
         <div>
           <h2 class="footer_title">
             {{ locale === "ar" ? "قانوني" : "policy" }}

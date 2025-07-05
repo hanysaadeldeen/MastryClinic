@@ -1,8 +1,8 @@
 <template>
     <nuxt-link :to="localePath(`/dental/${link}`)">
-        <div class="glass flex flex-col gap-8 p-8 rounded-xl items-center justify-center h-full">
-            <img :src="img" alt="logo" width="97px" height="70px">
-            <p class="font-medium  text-xl md:text-2xl  text-white">{{ $t(title) }}</p>
+        <div class="glass flex flex-col gap-8 py-6 md:p-8 rounded-xl items-center justify-center h-full">
+            <img :src="img" class="md:w-24 md:h-16" :alt="$t(title)">
+            <p class="font-medium text-center text-xl md:text-2xl  text-white">{{ $t(title) }}</p>
         </div>
     </nuxt-link>
 </template>

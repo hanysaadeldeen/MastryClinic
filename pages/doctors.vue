@@ -27,6 +27,9 @@
                         :img="item.img" />
                 </div>
             </section>
+
+            <ClosedFooter title="contact.CTA.title" description="contact.CTA.description"
+                bootom-one-title="contact.CTA.buttonOne" />
         </div>
     </section>
 </template>

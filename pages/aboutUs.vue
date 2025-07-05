@@ -1,5 +1,6 @@
 <template>
-  <section class="relative startSection heroSection text-white bg-gradient-to-b from-[#000000] to-[#220D0E]">
+  <!-- <section class="relative startSection heroSection text-white bg-gradient-to-b from-[#000000] to-[#220D0E]"> -->
+  <section>
     <StarterSection :title="$t('aboutUsPage.startSection.startSectionTitle')"
       :paragraph="$t('aboutUsPage.startSection.startSectionDescription')"
       :buttonTitle="$t('aboutUsPage.startSection.startSectionBtn')">
@@ -11,6 +12,10 @@
       </template>
 
     </StarterSection>
+    <div class="container px-11 sm:px-7 max-w-[1320px] mx-auto ">
+      <ClosedFooter title="contact.CTA.title" description="contact.CTA.description"
+        bootom-one-title="contact.CTA.buttonOne" />
+    </div>
   </section>
 </template>
 

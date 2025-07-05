@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["nuxt-lucide-icons", "@nuxtjs/i18n"],
-  components: ["~/components", "~/components/Utils", "~/components/home"],
+  components: ["~/components", "~/components/Utils", "~/components/home", "~/components/Utils/Cards"],
   i18n: {
     defaultLocale: "ar",
     strategy: "prefix_except_default",

@@ -1,7 +1,7 @@
 <template>
     <div class=" glass flex flex-col gap-5 p-8 rounded-xl">
         <div class="question flex justify-between gap-10 items-start">
-            <h1 class="font-medium text-lg md:text-xl lg:text-2xl ">
+            <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-white">
                 {{ $t(question) }}
             </h1>
             <div @click="toggleQuestion = !toggleQuestion" class="mt-2.5 cursor-pointer">
