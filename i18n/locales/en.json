@@ -261,6 +261,10 @@
       "serviceSix": {
         "title": "Preventive Dentistry"
       }
+    },
+    "whyMastery": {
+      "title": "Why Choose Mastery Clinic?",
+      "description": "We provide specialized care using the latest technologies, delivered by a team of experts."
     }
   },
   "aboutUsPage": {
@@ -268,6 +272,26 @@
       "startSectionTitle": "A Harmonious Smile Starts Here",
       "startSectionDescription": "Enhance the appearance of your teeth and achieve a healthy jaw balance with the best dental services at Mastery Clinic.",
       "startSectionBtn": "Book a Consultation Now"
+    },
+    "aboutMastery": {
+      "title": "Mastery Clinics is a Specialized Medical Institution",
+      "description": "Our goal is to provide comprehensive services in dentistry, dermatology, and aesthetics by achieving the perfect balance between health and beauty. We utilize the latest treatment technologies and high-quality materials. At Mastery Clinics, we strive to be the first destination for those seeking exceptional medical care. We are committed to delivering an outstanding treatment experience built on trust, transparency, and a deep focus on each patient’s individual needs.",
+      "cardOne": {
+        "title": "Our Mission",
+        "description": "To offer every client a comprehensive treatment experience that cares for both their health and beauty, focusing on quality and comfort at every stage of the journey."
+      },
+      "cardTwo": {
+        "title": "Our Vision",
+        "description": "To place the client at the heart of everything we do by providing specialized medical services that exceed expectations and reflect our commitment to precision and innovation."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Discover the values that guide our services and shape our vision for a brighter, healthier future.",
+      "valueOne": "Transparency and Trust",
+      "valueTwo": "Quality and Excellence",
+      "valueThree": "Sustainable Results",
+      "valueFour": "Medical Innovation"
     }
   },
   "contactPage": {

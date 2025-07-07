@@ -23,7 +23,7 @@
         <SectionHeaderTitle description="orthodonticsandjawalignment.howDentalHelpYour.description"
           title="orthodonticsandjawalignment.howDentalHelpYour.title" />
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <OrthodonticsCard v-for="item in Services" :title="item.title" :img="item.img" :link="item.link" />
+          <OrthodonticsCard v-for="item in Services" :title="item.title" :img="item.img" />
         </div>
       </section>
 
@@ -144,17 +144,14 @@ const FAQSectionDescription = [
 const Services = [
   {
     title: "dentalPage.services.serviceOne.title",
-    link: "digitaldentalimplants",
     img: orthodonticsOne
   },
   {
     title: "dentalPage.services.serviceTwo.title",
-    link: "orthodonticsandjawalignment",
     img: orthodonticsTwo
   },
   {
     title: "dentalPage.services.serviceThree.title",
-    link: "cosmeticanddentalprosthetics",
     img: orthodonticsThree
   }]
 

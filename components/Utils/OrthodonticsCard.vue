@@ -11,7 +11,6 @@
 interface Props {
     title: string
     img: string
-    link: string
 }
 
 defineProps<Props>()
