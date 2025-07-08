@@ -10,11 +10,11 @@
           </nuxt-link>
           <nav class="hidden lg:block">
             <ul class="flex gap-8">
-              <!-- <nuxt-link :to="localePath('index')">
+              <nuxt-link :to="localePath('index')">
                 <li :class="adjustedPath === '/' ? 'active' : ''">
                   {{ $t("header.home") }}
                 </li>
-              </nuxt-link> -->
+              </nuxt-link>
               <nuxt-link :to="localePath('aboutUs')">
                 <li :class="adjustedPath === '/aboutUs' ? 'active' : ''">
                   {{ $t("header.aboutUs") }}
@@ -50,7 +50,7 @@
       </div>
       <transition :name="transitionName">
         <div v-if="isSideBar"
-          class="sideBar fixed inset-x-0 top-[76px] z-20 flex h-[calc(100dvh-76px)] w-full flex-col items-start px-5 transition-all lg:hidden"
+          class="sideBar fixed inset-x-0 top-[100px] z-20 flex h-[calc(100dvh-100px)] w-full flex-col items-start px-5 transition-all lg:hidden"
           :class="[
             {
               'right-0': locale === 'ar',

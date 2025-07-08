@@ -189,37 +189,33 @@
     "dentalDoctors": {
       "title": "Dentists",
       "description": "Experts in dental treatment and cosmetic dentistry to ensure a healthy smile.",
-      "doctorOne": {
-        "name": "Dr. Imad Al-Hazani",
-        "speciality": "(Saudi Dental Consultant) Consultant in Restorative and Cosmetic Dentistry Over 20 years of experience in cosmetic fillings, dental treatment, restoration, and cosmetic dentistry"
-      },
-      "doctorTwo": {
-        "name": "Dr. Abeer Al-Asadi",
-        "speciality": "Bachelor of Oral and Dental Surgery, Master of Periodontal Surgery and Dental Implants, Damascus University, 11 years of experience in the field of specialization, holds training certificates in advanced surgical techniques from Germany, South Korea, and India. Member of the Women's International Implantology Network (WIN)."
-      },
-      "doctorThree": {
-        "name": "Dr. Anas Al-Omari",
-        "speciality": "Master of Orthodontics and Maxillofacial Surgery - 2009. Over 15 years of experience in treating all orthodontic cases. Certified expert from Smartee (clear aligners)."
-      },
       "doctorFour": {
         "name": "Dr. Mai Al-Khayat",
         "speciality": "Bachelor of Dental Medicine and Surgery, more than 20 years of experience in pediatric dentistry and conservative dentistry"
-      },
-      "doctorFive": {
-        "name": "Dr. Mu'ayyad Arnous",
-        "speciality": "- Bachelor's degree in Oral and Dental Medicine and Surgery - 2005 - European Fellowship and European Specialized Program in Cosmetic Dentistry (University of Genoa, Italy) - 2017"
       },
       "doctorSix": {
         "name": "Dr. Roaa Masoud",
         "speciality": "Dentist specializing in cosmetic dentistry and direct veneers. Member of the American Society of Cosmetic Dentistry."
       },
-      "doctorSeven": {
-        "name": "Dr. Abdul Aziz Arnous",
-        "speciality": "Bachelor of Dental Medicine and Surgery, King Abdulaziz University Member of the Saudi Dental Society"
-      },
       "doctorEight": {
         "name": "Dr. Samahar Bahbari",
         "speciality": "To educate about oral and dental hygiene, root canal cleaning, gum scaling, tooth polishing, preventive fillings for children and adults, and teeth whitening."
+      },
+      "doctorOne": {
+        "name": "Dr. Imad Al-Hazani",
+        "speciality": "(Saudi Dental Consultant) Consultant in Restorative and Cosmetic Dentistry Over 20 years of experience in cosmetic fillings, dental treatment, restoration, and cosmetic dentistry"
+      },
+      "doctorThree": {
+        "name": "Dr. Anas Al-Omari",
+        "speciality": "Master of Orthodontics and Maxillofacial Surgery - 2009. Over 15 years of experience in treating all orthodontic cases. Certified expert from Smartee (clear aligners)."
+      },
+      "doctorFive": {
+        "name": "Dr. Mu'ayyad Arnous",
+        "speciality": "- Bachelor's degree in Oral and Dental Medicine and Surgery - 2005 - European Fellowship and European Specialized Program in Cosmetic Dentistry (University of Genoa, Italy) - 2017"
+      },
+      "doctorSeven": {
+        "name": "Dr. Abdul Aziz Arnous",
+        "speciality": "Bachelor of Dental Medicine and Surgery, King Abdulaziz University Member of the Saudi Dental Society"
       },
       "doctorNine": {
         "name": "Dr. Ayman Khalaf",
@@ -340,6 +336,53 @@
       "FiveDescription": "A specialized solution for correcting major jawbone issues, such as protrusion or recession, supported by braces for optimal results.",
       "SixTitle": "Preventive Orthodontics for Children",
       "SixDescription": "Used to guide the growth of the jaw and baby teeth in children, aiming to prevent future alignment issues."
+    }
+  },
+  "digitaldentalimplants": {
+    "doctorsSection": {
+      "title": "Department doctors",
+      "description": "Experts in dental treatment and cosmetics to ensure a healthy smile"
+    },
+    "derviceDigitaldentalimplants": {
+      "title": "About Dental Implant Services at Mastery Clinics",
+      "description": "Our dental implant services rely on the latest global technologies. Titanium implants are fixed into the jawbone to serve as a stable foundation for replacement teeth that are strong and natural-looking, giving you a harmonious and beautiful smile that lasts for many years.",
+      "cardOne": "Natural-looking smile",
+      "cardTwo": "Stability that lasts for decades",
+      "cardThree": "Restoration of dental function",
+      "cardFour": "Protection against jawbone loss",
+      "cardFive": "Comfort and confidence during use",
+      "cardSix": "Easy to clean and maintain"
+    },
+    "Conditionsinstallingbraces": {
+      "title": "Conditions for Successful Dental Implantation",
+      "description": "Discover the essential conditions for a successful dental implant procedure.",
+      "one": "Adequate bone density to support the implant",
+      "two": "Healthy gums free from active infections",
+      "three": "Good overall health with no chronic diseases",
+      "four": "Quitting smoking, as it greatly affects bone healing and success rate",
+      "five": "Commitment to daily oral and dental hygiene to avoid infections",
+      "six": "Avoiding medications that interfere with bone healing, such as certain osteoporosis drugs",
+      "seven": "No autoimmune diseases or history of radiation therapy to the head or neck",
+      "eight": "Willingness for regular follow-up visits with the doctor to ensure ideal results"
+    },
+    "readyFiveSteps": {
+      "title": "How to Prepare for a Dental Implant?",
+      "description": "Discover the steps that help you prepare properly",
+      "one": "Initial consultation with your dentist",
+      "two": "Clinical examinations at the clinic",
+      "three": "Treating existing oral issues",
+      "four": "3D imaging of the teeth and jaw",
+      "five": "Following pre-surgery instructions"
+    },
+    "sergerySixsteps": {
+      "title": "Stages of the Dental Implant Procedure",
+      "description": "Discover the stages you'll go through during the dental implant journey",
+      "one": "Initial examination and consultation",
+      "two": "Bone grafting (if needed)",
+      "three": "Titanium implant placement",
+      "four": "Abutment placement between the implant and future crown",
+      "five": "Temporary crown placement",
+      "six": "Permanent crown placement"
     }
   },
   "Conditionsinstallingbraces": {

@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-10 lg:mb-16 relative z-20">
+  <div class="mb-10 lg:mb-16 relative z-10">
     <h1 class="text-center text-2xl md:text-2xl lg:text-4xl font-normal text-white mb-4 w-full">
       {{ $t(title) }}
     </h1>

@@ -9,9 +9,45 @@
             class="z-10  absolute left-1/2  -translate-y-1/2 -translate-x-1/2 top-1/2 object-contain" />
         </div>
       </template>
-
     </StarterSection>
     <div class="container px-11 sm:px-7 max-w-[1320px] mx-auto ">
+
+      <section class="aboutMastery relative">
+
+        <div class="blob blob2" aria-hidden="true"></div>
+
+        <div class="flex max-md:flex-col relative z-20 items-center justify-between gap-10 ">
+
+          <div class="flex flex-col gap-7 w-full md:max-w-[492px]">
+            <h1 class="font-medium text-4xl text-white">{{ $t("aboutUsPage.aboutMastery.title") }}</h1>
+            <p class="text-secondaryParagraph text-base font-normal text-justify">{{
+              $t("aboutUsPage.aboutMastery.description") }}
+            </p>
+          </div>
+
+
+          <div class="flex flex-col gap-10 w-full md:max-w-[491px]">
+            <div class="glass p-5 md:p-8 flex flex-col gap-6 text-center rounded-xl">
+              <h1 class="text-center text-white font-medium text-3xl">
+                {{ $t("aboutUsPage.aboutMastery.cardOne.title") }}
+              </h1>
+              <p class="text-center text-secondaryParagraph font-normal text-base">
+                {{ $t("aboutUsPage.aboutMastery.cardOne.description") }}
+              </p>
+            </div>
+            <div class="glass p-5 md:p-8 flex flex-col gap-6 text-center rounded-xl">
+              <h1 class="text-center text-white font-medium text-3xl">
+                {{ $t("aboutUsPage.aboutMastery.cardTwo.title") }}
+              </h1>
+              <p class="text-center text-secondaryParagraph font-normal text-base">
+                {{ $t("aboutUsPage.aboutMastery.cardTwo.description") }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 
       <section class="howCalendarHelp relative ">
         <div class="blob blob2" aria-hidden="true"></div>
@@ -26,6 +62,9 @@
           </div>
         </div>
       </section>
+
+
+
       <ClosedFooter title="contact.CTA.title" description="contact.CTA.description"
         bootom-one-title="contact.CTA.buttonOne" />
     </div>
@@ -74,10 +113,12 @@ const Services = [
   background-repeat: no-repeat;
 }
 
+
+
 .blob2 {
   background: linear-gradient(to right,
-      rgba(var(--tertiary-rgb), 0.3),
-      rgba(var(--tertiary-rgb), 0.1),
-      rgba(var(--tertiary-rgb), 0.3));
+      rgba(82, 165, 176, 0.3),
+      rgba(82, 165, 176, 0.1),
+      rgba(82, 165, 176, 0.3));
 }
 </style>

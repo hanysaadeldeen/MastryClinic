@@ -23,8 +23,17 @@
                 <SectionHeaderTitle description="doctors.dentalDoctors.description"
                     title="doctors.dentalDoctors.title" />
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                    <DoctorCard v-for="item in DentalDoctors" :title="item.name" :description="item.speciality"
-                        :img="item.img" />
+
+                    <div class="flex flex-col gap-10">
+                        <DoctorCard v-for="item in DentalDoctorsMen" :title="item.name" :description="item.speciality"
+                            :img="item.img" />
+                    </div>
+                    <div class="flex flex-col gap-10">
+                        <DoctorCard v-for="item in DentalDoctorsWoman" :title="item.name" :description="item.speciality"
+                            :img="item.img" />
+
+
+                    </div>
                 </div>
             </section>
 
@@ -45,47 +54,28 @@ import DrAyman from "../assets/img/DrAyman.svg"
 import drAbeda from "../assets/img/drAbeda.svg"
 
 
-const DentalDoctors = [
-    {
-        name: "doctors.dentalDoctors.doctorOne.name",
-        speciality: "doctors.dentalDoctors.doctorOne.speciality",
+const DentalDoctorsMen = [
 
-    },
-    {
-        name: "doctors.dentalDoctors.doctorTwo.name",
-        speciality: "doctors.dentalDoctors.doctorTwo.speciality",
-        img: drAbeer
-    },
-    {
-        name: "doctors.dentalDoctors.doctorThree.name",
-        speciality: "doctors.dentalDoctors.doctorThree.speciality",
-        img: dranas
-    },
-    {
-        name: "doctors.dentalDoctors.doctorFour.name",
-        speciality: "doctors.dentalDoctors.doctorFour.speciality",
-
-    },
-    {
-        name: "doctors.dentalDoctors.doctorFive.name",
-        speciality: "doctors.dentalDoctors.doctorFive.speciality",
-        img: drmoaaed
-    },
-    {
-        name: "doctors.dentalDoctors.doctorSix.name",
-        speciality: "doctors.dentalDoctors.doctorSix.speciality",
-        img: drRaa
-    },
     {
         name: "doctors.dentalDoctors.doctorSeven.name",
         speciality: "doctors.dentalDoctors.doctorSeven.speciality",
         img: drAbdo
     },
+
     {
-        name: "doctors.dentalDoctors.doctorEight.name",
-        speciality: "doctors.dentalDoctors.doctorEight.speciality",
-        img: drSamaher
+        name: "doctors.dentalDoctors.doctorThree.name",
+        speciality: "doctors.dentalDoctors.doctorThree.speciality",
+        img: dranas
     },
+
+    {
+        name: "doctors.dentalDoctors.doctorFive.name",
+        speciality: "doctors.dentalDoctors.doctorFive.speciality",
+        img: drmoaaed
+    },
+
+
+
     {
         name: "doctors.dentalDoctors.doctorNine.name",
         speciality: "doctors.dentalDoctors.doctorNine.speciality",
@@ -96,6 +86,28 @@ const DentalDoctors = [
         speciality: "doctors.dentalDoctors.doctorTen.speciality",
         img: drAbeda
     },
+    {
+        name: "doctors.dentalDoctors.doctorOne.name",
+        speciality: "doctors.dentalDoctors.doctorOne.speciality",
+    },
+]
+const DentalDoctorsWoman = [
+
+    {
+        name: "doctors.dentalDoctors.doctorSix.name",
+        speciality: "doctors.dentalDoctors.doctorSix.speciality",
+        img: drRaa
+    }, {
+        name: "doctors.dentalDoctors.doctorEight.name",
+        speciality: "doctors.dentalDoctors.doctorEight.speciality",
+        img: drSamaher
+    },
+    {
+        name: "doctors.dentalDoctors.doctorFour.name",
+        speciality: "doctors.dentalDoctors.doctorFour.speciality",
+    },
+
+
 ]
 
 </script>
