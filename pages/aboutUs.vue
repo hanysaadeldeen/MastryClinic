@@ -10,7 +10,7 @@
         </div>
       </template>
     </StarterSection>
-    <div class="container px-11 sm:px-7 max-w-[1320px] mx-auto ">
+    <div class="container px-11 sm:px-7 max-w-[1200px] mx-auto ">
 
       <section class="aboutMastery relative">
 

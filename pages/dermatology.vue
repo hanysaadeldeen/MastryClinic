@@ -4,7 +4,7 @@
       :paragraph="$t('dermatology.startSection.startSectionDescription')"
       :buttonTitle="$t('dermatology.startSection.startSectionBtn')" />
 
-    <div class="container relative mx-auto px-11 sm:px-7 text-white max-w-[1320px] mt-24">
+    <div class="container relative mx-auto px-11 sm:px-7 text-white max-w-[1200px] mt-24">
 
       <section class="doctors ">
 

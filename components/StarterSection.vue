@@ -1,17 +1,19 @@
 <template>
   <section
     class="overflow-hidden bg-gradient-to-r from-primary via-secondary to-primary pt-4 text-white h-[calc(100dvh-104px)] relative">
-    <div class="container mx-auto px-11 sm:px-7 relative h-full max-w-[1320px]">
-      <div class="w-full md:max-w-[608px] h-full flex flex-col justify-center">
-        <h1 class="font-medium text-3xl md:text-[56px] mb-4"
-          :class="locale === 'ar' ? 'leading-[150%]' : 'leading-[120%]'">
+    <div class="container mx-auto px-11 sm:px-7 relative h-full max-w-[1200px]">
+      <div class="w-full  h-full flex flex-col justify-center"
+        :class="adjustedPath === '/aboutUs' ? 'md:max-w-[600px]' : 'md:max-w-[500px]'">
+        <h1 class="font-medium text-3xl md:text-[45px] mb-4"
+          :class="locale === 'ar' ? '!leading-[150%]' : '!leading-[120%]'">
           {{ $t(title) }}
         </h1>
-        <p class="text-base md:text-xl font-normal mb-8 text-paragraph">
+        <p class="md:max-w-[450px] text-base md:text-xl font-normal mb-8 text-secondaryParagraph">
           {{ paragraph }}
         </p>
-        <Button :title="buttonTitle" />
+        <Button :title="buttonTitle" link="contact" />
       </div>
+
       <div class="absolute  bottom-[5%] px-11 sm:px-7" :class="locale === 'en' ? 'left-0' : 'right-0'">
         <img src="~/assets/img/Vector.svg" alt="Vector" />
       </div>
@@ -36,8 +38,15 @@
 </template>
 
 <script setup lang="ts">
-
-const { path } = useRoute()
+const route = useRoute();
+const getPathWithoutLocale = (path: string) => {
+  const segments = path.split("/");
+  if (segments[1] && segments[1].length === 2) {
+    return `/${segments.slice(2).join("/")}`;
+  }
+  return path;
+};
+const adjustedPath = computed(() => getPathWithoutLocale(route.path));
 
 
 interface Props {

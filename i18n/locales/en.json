@@ -7,6 +7,36 @@
     "doctors": "Doctors",
     "contactUs": "Get in Touch"
   },
+  "heroSection": {
+    "startSection": {
+      "startSectionTitle": "Your beauty starts here: Radiant skin and a charming smile.",
+      "startSectionDescription": "Trust Mastery Clinic for exceptional care, a captivating smile, and flawless skin in every detail.",
+      "startSectionBtn": "Request a Consultation Now"
+    },
+    "aboutSection": {
+      "aboutSectionTitle": "We are a team of dermatology and dental specialists who believe every patient deserves personalized care and outstanding results.",
+      "one": "Your safety is our top priority",
+      "two": "Trusted care with global standards",
+      "three": "Innovation and excellence in every service",
+      "four": "Specialized expertise for guaranteed results"
+    },
+    "serviceSection": {
+      "serviceSectionTitle": "Our Medical Services",
+      "serviceSectionDescription": "Explore our specialties at Mastery Clinic",
+      "one": {
+        "title": "Dental Services",
+        "description": "We offer comprehensive dental care using the latest technology to ensure a radiant smile and exceptional oral health."
+      },
+      "two": {
+        "title": "Dermatology and Aesthetic Services",
+        "description": "We provide the latest dermatology and aesthetic treatments to help restore your skin’s glow and youthfulness."
+      }
+    },
+    "dectors": {
+      "title": "Meet Our Doctors",
+      "description": "A team of experienced doctors dedicated to providing the best medical care for you and your family."
+    }
+  },
   "footer": {
     "page": {
       "home": "Home",

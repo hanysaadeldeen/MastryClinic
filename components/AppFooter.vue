@@ -1,7 +1,7 @@
 <template>
   <footer
     class="relative mt-[120px] bg-secondary border-white/60 border-t text-white md:mt-[240px] py-8 md:pt-14 px-11 sm:px-7">
-    <div class="container relative mx-auto text-white max-w-[1320px]">
+    <div class="container relative mx-auto text-white max-w-[1200px]">
       <div
         class="grid grid-cols-2 gap-16 border-b border-white/10 pb-6 md:grid-cols-3 md:gap-[72px] md:pb-12 lg:grid-cols-5">
         <div class="col-span-2">

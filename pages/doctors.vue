@@ -11,13 +11,13 @@
 
             <template #doctor>
                 <div class="doctor">
-                    <img src="~/assets/img/doctorsStarterSection.svg" alt="doctorsStarterSection"
+                    <img src="~/assets/img/doctorsStarterSection.png" alt="doctorsStarterSection"
                         class="relative z-10  object-contain" />
                 </div>
             </template>
 
         </StarterSection>
-        <div class="container relative mx-auto px-11 sm:px-7 text-white max-w-[1320px] mt-24">
+        <div class="container relative mx-auto px-11 sm:px-7 text-white max-w-[1200px] mt-24">
             <section class="Dentealdoctors ">
 
                 <SectionHeaderTitle description="doctors.dentalDoctors.description"
@@ -44,7 +44,6 @@
 </template>
 
 <script setup lang="ts">
-import drAbeer from "../assets/img/drAbeer.svg"
 import dranas from "../assets/img/dranas.svg"
 import drmoaaed from "../assets/img/drmoaaed.svg"
 import drRaa from "../assets/img/drRaa.svg"

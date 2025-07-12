@@ -33,7 +33,7 @@
       </template>
     </StarterSection>
 
-    <div class="container px-11 sm:px-7 max-w-[1320px] mx-auto ">
+    <div class="container px-11 sm:px-7 max-w-[1200px] mx-auto ">
       <div class="min-h-[889.58px] relative  text-white mt-24 flex items-end justify-center">
         <div class="absolute hidden md:block top-0 left-1/2 z-20 max-h-[200px] w-full -translate-x-1/2 md:-bottom-5">
           <img src="~/assets/img/CirclesSections.svg" alt="CirclesSections" width="100%" height="200" loading="eager"
@@ -91,22 +91,26 @@ const Services = [
   },
   {
     title: "dentalPage.services.serviceThree.title",
-    link: "cosmeticanddentalprosthetics",
+    link: "",
+    // link: "cosmeticanddentalprosthetics",
     img: logo
   },
   {
     title: "dentalPage.services.serviceFour.title",
-    link: "gumsurgeryandaesthetics",
+    link: "",
+    // link: "gumsurgeryandaesthetics",
     img: logo
   },
   {
     title: "dentalPage.services.serviceFive.title",
-    link: "pediatricdentistry",
+    // link: "pediatricdentistry",
+    link: "",
     img: logo
   },
   {
     title: "dentalPage.services.serviceSix.title",
-    link: "preventivedentistry",
+    link: "",
+    // link: "preventivedentistry",
     img: logo
   }
 ]

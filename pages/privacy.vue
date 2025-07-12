@@ -10,7 +10,7 @@
         </div>
       </template>
     </StarterSection>
-    <div class="container relative mx-auto text-white max-w-[1320px] mt-24">
+    <div class="container relative mx-auto text-white max-w-[1200px] mt-24">
       <div class="relative  px-11 sm:px-7">
         <div class="privacy-page flex" :key="locale">
           <main class="content flex-1" :class="locale === 'ar' ? 'lg:ml-32  flex-1' : 'lg:mr-32  flex-1'">

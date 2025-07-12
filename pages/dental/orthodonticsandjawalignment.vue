@@ -1,6 +1,6 @@
 <template>
   <section class="dentalPage relative overflow-hidden">
-    <div class="container mx-auto px-11 sm:px-7 relative h-full max-w-[1320px]">
+    <div class="container mx-auto px-11 sm:px-7 relative h-full max-w-[1200px]">
       <div class="py-5 flex text-white font-normal text-base lg:text-xl border-b border-primary gap-1">
         <p @click="router.push('/dental')" class="cursor-pointer"> {{ $t("header.dental") }} / </p>
         <p> {{ $t("dentalPage.services.serviceTwo.title") }}</p>
@@ -10,12 +10,12 @@
       <section class="doctors mt-52 relative">
         <div class="blob " aria-hidden="true"></div>
         <SectionHeaderTitle description="dermatology.doctors.description" title="dermatology.doctors.title" />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <DoctorCard title="dermatology.doctors.one.name" description="dermatology.doctors.one.speciality"
             :img="dentalDoctorAsmaa" />
           <DoctorCard title="dermatology.doctors.two.name" description="dermatology.doctors.two.speciality"
             :img="drAbeer" />
-        </div>
+        </div> -->
       </section>
 
       <section class="howCalendarHelp relative ">
