@@ -28,7 +28,7 @@
 
       <section class="QandAnswer mt-[120px] md:mt-[200px]">
         <SectionHeaderTitle title="dermatology.FAQ.title" />
-        <div class="mt-10 md:mt-14 flex  flex-col gap-12 w-full max-w-screen-sm mx-auto">
+        <div class="mt-10 md:mt-14 flex  flex-col gap-12 w-full mx-auto">
           <FAQ v-for="faq in FAQSectionDescription" :key="faq.id" :question="faq.question" :answer="faq.answer"
             :loack="faq.loack" />
         </div>

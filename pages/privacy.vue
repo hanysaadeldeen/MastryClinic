@@ -19,7 +19,7 @@
             </h1>
             <p class="text-base md:text-lg lg:text-xl">
               {{ $t("privacy.content.Description") }}
-              <a href="https://masteryclinic.com" class="underline" target="_blank">https://masteryclinic.com.</a>
+              <a href="https://masteryclinics.com" class="underline" target="_blank">https://masteryclinics.com.</a>
             </p>
             <div v-for="(section, index) in sections" :id="section.id" :key="index" class="mb-8 mt-10 lg:mt-16">
               <h2 class="text-lg lg:text-xl font-bold mb-5">

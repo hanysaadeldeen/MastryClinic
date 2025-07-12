@@ -7,18 +7,18 @@
       </div>
 
 
-      <section class="doctors mt-52 relative">
+      <!-- <section class="doctors mt-52 relative">
         <div class="blob " aria-hidden="true"></div>
         <SectionHeaderTitle description="dermatology.doctors.description" title="dermatology.doctors.title" />
-        <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <DoctorCard title="dermatology.doctors.one.name" description="dermatology.doctors.one.speciality"
             :img="dentalDoctorAsmaa" />
           <DoctorCard title="dermatology.doctors.two.name" description="dermatology.doctors.two.speciality"
             :img="drAbeer" />
-        </div> -->
-      </section>
+        </div>
+      </section> -->
 
-      <section class="howCalendarHelp relative ">
+      <section class="howCalendarHelp relative mt-52 ">
         <div class="blob blob2" aria-hidden="true"></div>
         <SectionHeaderTitle description="orthodonticsandjawalignment.howDentalHelpYour.description"
           title="orthodonticsandjawalignment.howDentalHelpYour.title" />
@@ -91,7 +91,7 @@
 
       <section class="QandAnswer mt-[120px] md:mt-[200px]">
         <SectionHeaderTitle title="dermatology.FAQ.title" />
-        <div class="mt-10 md:mt-14 flex  flex-col gap-8 w-full max-w-screen-sm mx-auto">
+        <div class="mt-10 md:mt-14 flex  flex-col gap-8 w-full mx-auto">
           <FAQ v-for="faq in FAQSectionDescription" :key="faq.id" :question="faq.question" :answer="faq.answer"
             :loack="faq.loack" />
         </div>
