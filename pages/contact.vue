@@ -3,8 +3,8 @@
   <div class="contactPage mx-auto max-w-[1384px] px-11 sm:px-7 text-white">
 
 
-    <div class="mt-[128px] flex max-md:flex-col justify-between items-start lg:items-center md:gap-10 md:mb-[100px] ">
-      <div class="flex flex-col w-full md:max-w-[417px]  lg:max-w-[600px]">
+    <div class="mt-[128px] flex max-md:flex-col justify-between items-start  md:gap-10 md:mb-[100px] ">
+      <div class="flex md:pt-8 flex-col w-full md:max-w-[417px]  lg:max-w-[600px]">
         <h1 class="font-semibold max-md:text-center text-xl lg:text-3xl mb-2 md:mb-4 text-white">{{
           $t("contactPage.startSection.startSectionTitle")
         }}</h1>

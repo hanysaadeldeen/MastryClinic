@@ -3,15 +3,13 @@
     <StarterSection :title="$t('dermatology.startSection.startSectionTitle')"
       :paragraph="$t('dermatology.startSection.startSectionDescription')"
       :buttonTitle="$t('dermatology.startSection.startSectionBtn')" />
-
     <div class="container relative mx-auto px-11 sm:px-7 text-white max-w-[1200px] mt-24">
-
       <section class="doctors ">
 
         <SectionHeaderTitle description="dermatology.doctors.description" title="dermatology.doctors.title" />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           <DoctorCard title="dermatology.doctors.one.name" description="dermatology.doctors.one.speciality"
-            :img="dentalDoctorAsmaa" />
+            :img="dentalDoctorAsmaa" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150" />
           <!-- <DoctorCard title="dermatology.doctors.two.name" description="dermatology.doctors.two.speciality"
             :img="drAbeer" /> -->
 
@@ -21,16 +19,17 @@
 
         <SectionHeaderTitle description="dermatology.machine.description" title="dermatology.machine.title" />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <MachineCard v-for="item in Mahines" :title="item.title" :info="item.info" :img="item.img" />
+          <MachineCard v-for="item in Mahines" :title="item.title" :info="item.info" :img="item.img" data-aos="fade-up"
+            data-aos-duration="600" data-aos-delay="250" />
         </div>
       </section>
 
 
       <section class="QandAnswer mt-[120px] md:mt-[200px]">
         <SectionHeaderTitle title="dermatology.FAQ.title" />
-        <div class="mt-10 md:mt-14 flex  flex-col gap-12 w-full mx-auto">
+        <div class="mt-10 md:mt-14 flex  flex-col gap-6 md:gap-8 w-full mx-auto">
           <FAQ v-for="faq in FAQSectionDescription" :key="faq.id" :question="faq.question" :answer="faq.answer"
-            :loack="faq.loack" />
+            :loack="faq.loack" data-aos="fade-up" data-aos-duration="600" />
         </div>
       </section>
     </div>

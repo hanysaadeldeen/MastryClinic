@@ -3,7 +3,7 @@
     :class="[{ 'overflow-hidden': isSideBar }]">
     <div class="container relative mx-auto text-white max-w-[1200px] px-11 sm:px-7">
       <div class="relative z-20">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between" data-aos="fade-down" data-aos-duration="600">
           <nuxt-link :to="localePath('index')">
             <img src="~/assets/img/logo.svg" alt="mastery clinics" width="160" height="43.35" loading="eager"
               fetchpriority="high" />
@@ -50,7 +50,7 @@
       </div>
       <transition :name="transitionName">
         <div v-if="isSideBar"
-          class="sideBar fixed inset-x-0 top-[100px] z-20 flex h-[calc(100dvh-100px)] w-full flex-col items-start px-5 transition-all lg:hidden"
+          class="sideBar fixed inset-x-0 top-[100px]  h-[calc(100dvh-100px)]   z-30 flex   w-full flex-col items-start px-5 transition-all lg:hidden"
           :class="[
             {
               'right-0': locale === 'ar',
@@ -99,6 +99,15 @@
 </template>
 
 <script setup lang="ts">
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+onMounted(() => {
+  AOS.init({
+    duration: 600,
+    once: true,
+  })
+})
 import { useDebounceFn } from "@vueuse/core";
 const { locale, setLocale } = useI18n();
 const localePath = useLocalePath();

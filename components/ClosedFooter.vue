@@ -1,6 +1,6 @@
 <template>
     <section class="relative w-full ">
-        <div
+        <div data-aos="fade-up" data-aos-duration="800"
             class="relative z-30 mx-auto w-full rounded-xl border border-secondary/15  py-14 max-md:px-4 max-w-[1033px]  md:py-16 lg:py-[80px]">
             <img loading="lazy" src="~/assets/img/CycleShape.svg" alt="CycleShape"
                 class="absolute max-h-[566px]  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 " />

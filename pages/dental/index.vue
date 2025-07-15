@@ -43,19 +43,13 @@
         <section class="doctors relative ">
           <SectionHeaderTitle description="dentalPage.services.description" title="dentalPage.services.title" />
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <DentalServiceCard v-for="item in Services" :title="item.title" :img="item.img" :link="item.link" />
+            <DentalServiceCard v-for="item in Services" :title="item.title" :img="item.img" :link="item.link"
+              data-aos="fade-up" data-aos-duration="600" />
           </div>
         </section>
       </div>
 
-      <section class="TypesOrthodontics relative ">
-        <SectionHeaderTitle description="dentalPage.whyMastery.description" title="dentalPage.whyMastery.title" />
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
-          <img loading="lazy" src="~/assets/img/CycleShape.svg" alt="CycleShape"
-            class="hidden sm:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 " />
-          <img v-for="item in typesTypeOrthodontics" :src="item.img" alt="لماذا تختار عيادة ماستري" class="mx-auto" />
-        </div>
-      </section>
+      <TypesOrthodontics />
 
 
       <ClosedFooter title="contact.CTA.title" description="contact.CTA.description"
@@ -72,12 +66,6 @@ import logo from "../assets/img/LogoTap.svg"
 const { locale } = useI18n();
 const localePath = useLocalePath()
 
-import dentalWhy1 from "../assets/img/dentalWhy1.svg"
-import dentalWhy2 from "../assets/img/dentalWhy2.svg"
-import dentalWhy3 from "../assets/img/dentalWhy3.svg"
-import dentalWhy4 from "../assets/img/dentalWhy4.svg"
-import dentalWhy5 from "../assets/img/dentalWhy5.svg"
-import dentalWhy6 from "../assets/img/dentalWhy6.svg"
 const Services = [
   {
     title: "dentalPage.services.serviceOne.title",
@@ -113,34 +101,6 @@ const Services = [
     // link: "preventivedentistry",
     img: logo
   }
-]
-
-const typesTypeOrthodontics = [
-  {
-    id: "1",
-    img: dentalWhy1
-  },
-  {
-    id: "2",
-    img: dentalWhy2
-  },
-  {
-    id: "3",
-    img: dentalWhy3
-  },
-  {
-    id: "4",
-    img: dentalWhy4
-  },
-  {
-    id: "5",
-    img: dentalWhy5
-  },
-  {
-    id: "6",
-    img: dentalWhy6
-  },
-
 ]
 
 </script>

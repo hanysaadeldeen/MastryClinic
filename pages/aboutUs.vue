@@ -15,19 +15,18 @@
       <section class="aboutMastery relative">
 
         <div class="blob blob2" aria-hidden="true"></div>
-
         <div class="flex max-md:flex-col relative z-20 items-center justify-between gap-10 ">
-
           <div class="flex flex-col gap-7 w-full md:max-w-[492px]">
-            <h1 class="font-medium text-4xl text-white">{{ $t("aboutUsPage.aboutMastery.title") }}</h1>
-            <p class="text-secondaryParagraph text-base font-normal text-justify">{{
-              $t("aboutUsPage.aboutMastery.description") }}
+            <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="150" class="font-medium text-4xl text-white">
+              {{ $t("aboutUsPage.aboutMastery.title") }}</h1>
+            <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="350"
+              class="text-secondaryParagraph text-base font-normal text-justify">{{
+                $t("aboutUsPage.aboutMastery.description") }}
             </p>
           </div>
-
-
           <div class="flex flex-col gap-10 w-full md:max-w-[491px]">
-            <div class="glass p-5 md:p-8 flex flex-col gap-6 text-center rounded-xl">
+            <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="150"
+              class="glass p-5 md:p-8 flex flex-col gap-6 text-center rounded-xl">
               <h1 class="text-center text-white font-medium text-3xl">
                 {{ $t("aboutUsPage.aboutMastery.cardOne.title") }}
               </h1>
@@ -35,7 +34,8 @@
                 {{ $t("aboutUsPage.aboutMastery.cardOne.description") }}
               </p>
             </div>
-            <div class="glass p-5 md:p-8 flex flex-col gap-6 text-center rounded-xl">
+            <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="350"
+              class="glass p-5 md:p-8 flex flex-col gap-6 text-center rounded-xl">
               <h1 class="text-center text-white font-medium text-3xl">
                 {{ $t("aboutUsPage.aboutMastery.cardTwo.title") }}
               </h1>
@@ -56,7 +56,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           <div v-for="item in Services"
-            class="glass flex flex-col gap-8 py-6 md:p-8 rounded-xl items-center justify-center h-full">
+            class="glass flex flex-col gap-8 py-6 md:p-8 rounded-xl items-center justify-center h-full"
+            data-aos="fade-up" data-aos-duration="600">
             <img :src="item.img" class="md:w-14 md:h-14" :alt="$t(item.title)">
             <p class="font-medium text-center text-xl md:text-2xl  text-white">{{ $t(item.title) }}</p>
           </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-10 lg:mb-16 relative z-10">
+  <div class="mb-10 lg:mb-16 relative z-10" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
     <h1 class="text-center text-2xl md:text-2xl lg:text-4xl font-normal text-white mb-4 w-full">
       {{ $t(title) }}
     </h1>

@@ -26,11 +26,11 @@
 
                     <div class="flex flex-col gap-10">
                         <DoctorCard v-for="item in DentalDoctorsMen" :title="item.name" :description="item.speciality"
-                            :img="item.img" />
+                            :img="item.img" data-aos="fade-up" data-aos-duration="600" />
                     </div>
                     <div class="flex flex-col gap-10">
                         <DoctorCard v-for="item in DentalDoctorsWoman" :title="item.name" :description="item.speciality"
-                            :img="item.img" />
+                            :img="item.img" data-aos="fade-up" data-aos-duration="600" />
 
 
                     </div>
